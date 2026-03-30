@@ -159,7 +159,7 @@ while coffee_machine_on:
         print(f"Milk: {resources['milk']}ml")
         print(f"Coffee: {resources['coffee']}g")
         print(f"Money: ${money}")
-        print(f"Here is your {choice}.")
+        print(f"Here is your bloody {choice}.")
     elif choice == "off":
         coffee_machine_on = False
     else:
