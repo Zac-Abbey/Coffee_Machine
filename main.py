@@ -133,7 +133,7 @@ while coffee_machine_on:
                 resources["coffee"] = resources["coffee"] - MENU[choice]["ingredients"]["coffee"]
                 print(f"Here is your {choice}. Enjoy!")
         else:
-            print("Sorry that's not enough money. Money refunded.")
+            print("Sorry that's not enough money and you are broke. Money refunded.")
             # coffee_machine_on = False
     elif choice == "cappuccino":
         print("Please insert coins.")
@@ -163,7 +163,7 @@ while coffee_machine_on:
     elif choice == "off":
         coffee_machine_on = False
     else:
-        print("Try this inputs as options! 'espresso' or 'latte' or 'report' or 'cappuccino'")
+        print("Try some of this inputs as options! 'espresso' or 'latte' or 'report' or 'cappuccino'")
 
     # TODO: 10. Print remaining resource-ingredient
 
